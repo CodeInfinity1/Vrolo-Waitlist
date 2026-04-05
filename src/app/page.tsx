@@ -200,9 +200,11 @@ export default function Home() {
         <div className="container">
           <div className="navbar-inner">
             <a href="/" className="logo" aria-label="Vrolo home">
-              <div className="logo-icon">
-                <IconZap />
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="Vrolo" 
+                style={{ width: 32, height: 32, borderRadius: 8 }} 
+              />
               <span className="logo-text">Vrolo</span>
             </a>
 
