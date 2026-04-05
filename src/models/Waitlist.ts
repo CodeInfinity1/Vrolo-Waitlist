@@ -16,6 +16,7 @@ const WaitlistSchema = new Schema<IWaitlistEntry>(
       unique: true,
       lowercase: true,
       trim: true,
+      maxlength: [254, 'Email cannot exceed 254 characters'],
     },
     name: {
       type: String,

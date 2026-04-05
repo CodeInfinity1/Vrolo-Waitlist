@@ -16,6 +16,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Strict type checks for optional fields (prevent NoSQL object injection)
+    if (name && typeof name !== 'string') {
+      return NextResponse.json({ success: false, message: 'Invalid name format.' }, { status: 400 });
+    }
+    if (company && typeof company !== 'string') {
+      return NextResponse.json({ success: false, message: 'Invalid company format.' }, { status: 400 });
+    }
+    if (role && typeof role !== 'string') {
+      return NextResponse.json({ success: false, message: 'Invalid role format.' }, { status: 400 });
+    }
+
     // Validate email format
     if (!isEmail(email.trim())) {
       return NextResponse.json(

@@ -232,7 +232,7 @@ export default function Home() {
             </h1>
 
             <p className="hero-subtext animate-fade-up delay-2">
-              Vrolo picks up routine work when someone is unavailable — handling tasks
+              Vrolo picks up routine work when someone is unavailable - handling tasks
               in a way that matches how your team normally operates.
             </p>
 
@@ -272,7 +272,7 @@ export default function Home() {
             </h2>
             <p className="section-subtitle animate-fade-up delay-2">
               When one person is out, the work they own waits with them. That delay compounds
-              across your team — and customers often feel it before you do.
+              across your team - and customers often feel it before you do.
             </p>
           </div>
 
@@ -282,7 +282,7 @@ export default function Home() {
               <h3>Work stalls at one person</h3>
               <p>
                 Decisions get delayed. Inboxes back up. A task that should take an hour waits
-                days because one person — on leave, sick, or in another timezone — isn&apos;t there.
+                days because one person - on leave, sick, or in another timezone - isn&apos;t there.
               </p>
             </div>
 
@@ -320,7 +320,7 @@ export default function Home() {
             </h2>
             <p className="section-subtitle animate-fade-up delay-2">
               Vrolo learns from your team&apos;s past work, then steps in to handle routine tasks
-              when someone is out — without needing a replacement or a manual handoff.
+              when someone is out - without needing a replacement or a manual handoff.
             </p>
           </div>
 
@@ -331,7 +331,7 @@ export default function Home() {
               <h3>Understands how your team works</h3>
               <p>
                 Vrolo reviews past emails, documents, and recurring tasks to understand the
-                patterns in how your team handles requests — not in theory, but in practice.
+                patterns in how your team handles requests - not in theory, but in practice.
               </p>
             </div>
 
@@ -341,7 +341,7 @@ export default function Home() {
               <h3>Handles routine requests while they&apos;re out</h3>
               <p>
                 When someone is unavailable, Vrolo drafts responses and processes standard
-                requests — matching how your team normally responds to that kind of work.
+                requests - matching how your team normally responds to that kind of work.
               </p>
             </div>
 
@@ -370,7 +370,7 @@ export default function Home() {
               <h2>Get early access</h2>
               <p>
                 We&apos;re working with a small group of teams who deal with this problem directly.
-                If that&apos;s you, join the waitlist — we&apos;ll be in touch as we open access.
+                If that&apos;s you, join the waitlist - we&apos;ll be in touch as we open access.
               </p>
               <div className="launch-badge">
                 <IconRocket />
@@ -411,7 +411,7 @@ export default function Home() {
             <h2>If this problem sounds familiar, we&apos;d like to hear from you.</h2>
             <p>
               Join the waitlist and get early access. We&apos;re working with a small group of
-              teams to get this right — and your feedback will directly shape the product.
+              teams to get this right - and your feedback will directly shape the product.
             </p>
             <WaitlistForm id="footer" />
           </div>

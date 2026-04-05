@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Vrolo — Work Continues When Your Team Is Away',
+  title: 'Vrolo - Work Continues When Your Team Is Away',
   description:
     'Vrolo ensures operations continue by handling routine work when employees are away. Join the waitlist for early access.',
   keywords: ['AI automation', 'business continuity', 'team availability', 'workflow automation', 'SaaS'],
   openGraph: {
-    title: 'Vrolo — Work Continues When Your Team Is Away',
+    title: 'Vrolo - Work Continues When Your Team Is Away',
     description:
       'Vrolo ensures operations continue by handling routine work when employees are away.',
     type: 'website',
